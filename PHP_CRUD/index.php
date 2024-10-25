@@ -19,7 +19,7 @@ if(isset($_POST['update'])) {
     updateUser($user); //call the updateUser function to update the data and pass the $user variable to the function's parameter
 }
 if(isset($_GET['delete'])) {
-    deleteUser($_GET['id']);//call the deleteUser function to delete the data and pass the $_POST['delete'] super global to the function's parameter
+    deleteUser($_GET['id']);//call the deleteUser function to delete the data and pass the $_GET['id'] super global to the function's parameter
 }
 ?>
 <!DOCTYPE html>
